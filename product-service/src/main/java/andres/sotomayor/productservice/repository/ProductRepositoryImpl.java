@@ -1,7 +1,6 @@
 package andres.sotomayor.productservice.repository;
 
 import andres.sotomayor.productservice.dto.ProductRepositoryDTO;
-import andres.sotomayor.productservice.dto.ProductResponseDTO;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Repository;
 import tools.jackson.core.type.TypeReference;
