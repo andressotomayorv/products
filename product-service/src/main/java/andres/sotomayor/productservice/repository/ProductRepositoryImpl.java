@@ -17,7 +17,7 @@ public class ProductRepositoryImpl implements IProductRepository {
     private final ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public List<ProductResponseDTO> findAll() throws IOException {
+    public List<ProductRepositoryDTO> findAll() throws IOException {
         InputStream jsonFile = new ClassPathResource("products-repository.json").getInputStream();
         return mapper.readValue(jsonFile, new TypeReference<>() {
         });

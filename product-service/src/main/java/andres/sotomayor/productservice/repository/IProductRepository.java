@@ -1,11 +1,11 @@
 package andres.sotomayor.productservice.repository;
 
-import andres.sotomayor.productservice.dto.ProductResponseDTO;
+import andres.sotomayor.productservice.dto.ProductRepositoryDTO;
 
 import java.io.IOException;
 import java.util.List;
 
 public interface IProductRepository {
 
-    List<ProductResponseDTO> findAll() throws IOException;
+    List<ProductRepositoryDTO> findAll() throws IOException;
 }
